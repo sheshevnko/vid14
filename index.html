@@ -6,6 +6,7 @@
 	<title>La Vid Verdadera | Iglesia Cristiana</title>
 	<link rel="stylesheet" href="css/normalize.css" />
 	<link rel="stylesheet" href="css/main-style.css" />
+	<link rel="stylesheet" href="css/formulario.css" />
 	<link rel="stylesheet" href="css/animate/animate.min.css">
 </head>
 <body>
@@ -33,9 +34,21 @@
 		</div>
 	</section>-->
 	<div id="formulario-contacto">
+		<section class="formulario">
+			<form action="contacto.php" method="post">
+				<label for="nombre">Nombre:</label>
+ 				<input id="nombre" type="text" name="nombre" placeholder="Nombre y Apellido" required="" />
+ 				<label for="email">Email:</label>
+ 				<input id="email" type="email" name="email" placeholder="ejemplo@correo.com" required="" />
+ 				<label for="mensaje">Mensaje:</label>
+ 				<textarea id="mensaje" name="mensaje" placeholder="Mensaje" required=""></textarea>
+ 				<input id="submit" type="submit" name="submit" value="Enviar" />
+			</form>
+
+		</section>
 		
 	</div>
-	<section id="social">
+	<!--<section id="social">
 			<div class="yt">
 				<iframe width="720" height="480" src="//www.youtube.com/embed/4BR4uwE-15c?list=PL_cMddiUNeUzWkEfYSBwKU4dmIk_Y7lTa" frameborder="0" allowfullscreen></iframe>
 			</div>
