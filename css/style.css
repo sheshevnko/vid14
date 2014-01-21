@@ -1,0 +1,80 @@
+@font-face{font-family:'iconos';src:url("iconos/fonts/icomoon.eot");src:url("iconos/fonts/icomoon.eot?#iefix") format('embedded-opentype'),url("iconos/fonts/icomoon.woff") format('woff'),url("iconos/fonts/icomoon.ttf") format('truetype'),url("iconos/fonts/icomoon.svg#icomoon") format('svg');font-weight:normal;font-style:normal}
+body{background:rgba 162,178,186,.7;font-size:16px;body-scroll:none;margin:0;padding:0;text-decoration:none;width:100%}
+header{background:#e4e4e1}
+footer{background:#494949;color:#fff;padding:.2em 0;position:relative;text-align:center;}
+footer a:hover{color:#e61c83}
+h1{font-size:1em}
+h2{color:#fff}
+#contacto{background:#dbdbd5;height:40px;margin:0 10px 0 21px;position:relative;width:50px}
+#contacto:after{border-bottom:40px solid transparent;border-left:25px solid #dbdbd5;content:" ";left:100%;position:absolute;top:0}
+#contacto,#logo{display:inline-block;vertical-align:top}
+#logo{background:#e61c83;height:40px;position:relative;width:150px}
+#logo:after{border-bottom:40px solid #dbdbd5;border-left:25px solid #e61c83;content:" ";left:100%;position:absolute;top:0}
+#main{display:inline-block;}
+#main .delimitador{margin:0;padding:0;width:40%}
+#main #redes,#main display inline-block,#main float right,#main margin 6px20px6px10px,#main .facebook{color:#767676;display:inline-block;padding:0 10px;}
+#main #redes:before,#main display inline-block:before,#main float right:before,#main margin 6px20px6px10px:before,#main .facebook:before{display:inline-block;font-family:"iconos";font-size:28px;content:"\e614"}
+#main .facebook:hover{color:#e61c83}
+#main .maps{color:#767676;padding:0 10px;display:inline-block;}
+#main .maps:before{display:inline-block;font-family:"iconos";font-size:28px;content:"\e609"}
+#main .maps:hover{color:#e61c83}
+#main .twitter{color:#767676;padding:0 10px;display:inline-block;}
+#main .twitter:before{display:inline-block;font-family:"iconos";font-size:28px;content:"\e615"}
+#main .twitter:hover{color:#e61c83}
+#main .youtube{color:#767676;padding:0 10px;display:inline-block;}
+#main .youtube:before{display:inline-block;font-family:"iconos";font-size:28px;content:"\e616"}
+#main .youtube:hover{color:#e61c83}
+#social{background:#767676;color:#f4f3f2;height:200px;margin:0;padding:0;width:100%;}
+#social .yt,#social .tw,#social .dir{display:inline-block;width:30%}
+#social .dir{margin:0 4% 0 2%;text-align:left;text-decoration:none;}
+#social .dir a{text-decoration:none;color:#f4f3f2}
+#social .tw{margin:0 2%}
+.contact{color:#767676;}
+.contact:before{content:"\e600";display:inline-block;font-family:"iconos";font-size:28px;margin:5px 10px}
+.contact:hover{color:#e61c83}
+.desarrollo{font-size:15px;margin-top:-16px;}
+.desarrollo p:after{content:" - "}
+.desarrollo p:before{content:" - "}
+.logo_head{height:30px;margin:5px 30px;width:80px}
+.logo_horario,.horario_social{display:inline-block}
+.logo_ubicacion,.ubicacion_social{display:inline-block}
+.logo_horario{color:#fff;padding:0 10px;display:inline-block;}
+.logo_horario:before{display:inline-block;font-family:"iconos";font-size:28px;content:"\e604"}
+.logo_responsive{display:none}
+.logo_ubicacion{color:#fff;padding:0 10px;display:inline-block;}
+.logo_ubicacion:before{display:inline-block;font-family:"iconos";font-size:28px;content:"\e60a"}
+.lv{padding:.2em 0 0 0 0}
+.ubicacion_espacio{margin:1px 0}
+.md{color:#fff;text-decoration:none}
+.social_responsive{display:none}
+.ubicacion{margin:0}
+.ubicacion_espacio{margin:10px 0 0 0}
+@media screen and (max-width: 768px){header{background:#e61c83;height:60px;}
+header #logo{margin:10px;width:35%;}
+header #logo:after,header #logo display none,header #logo .logo_head{display:none}
+header #logo .logo_responsive{display:inline-block;width:160px}
+header #redes{float:right;margin:10px 0;}
+header #redes .facebook{color:#e3e2e2;display:inline-block;padding:0 10px;}
+header #redes .facebook:before{display:inline-block;font-family:"iconos";font-size:40px;content:"\e614"}
+header #redes .facebook:hover{color:#a2b2ba}
+header #redes .maps{color:#e3e2e2;padding:0 10px;display:none;}
+header #redes .maps:before{display:none;font-family:"iconos";font-size:40px;content:"\e609"}
+header #redes .maps:hover{color:#a2b2ba}
+header #redes .twitter{color:#e3e2e2;padding:0 10px;display:inline-block;}
+header #redes .twitter:before{display:inline-block;font-family:"iconos";font-size:40px;content:"\e615"}
+header #redes .twitter:hover{color:#a2b2ba}
+header #redes .youtube{color:#e3e2e2;padding:0 10px;display:inline-block;}
+header #redes .youtube:before{display:inline-block;font-family:"iconos";font-size:40px;content:"\e616"}
+header #redes .youtube:hover{color:#a2b2ba}
+header #contacto{display:none}
+#social{display:none}
+}footer{display:inline-block;width:100%}
+.social_responsive{background:#494949;border-radius:10px 10px 0 0;display:none;margin:1em auto 0;padding:1em;text-align:center;width:40%;}
+.social_responsive .comenta{color:#e3e2e2;display:inline-block;width:20%;}
+.social_responsive .comenta:before{display:inline-block;font-family:"iconos";font-size:50px;content:"\e600"}
+.social_responsive .comenta:hover,.social_responsive .horario:hover,.social_responsive .map:hover{color:#e61c83}
+.social_responsive .horario{color:#e3e2e2;display:inline-block;width:20%;}
+.social_responsive .horario:before{display:inline-block;font-family:"iconos";font-size:50px;content:"\e604"}
+.social_responsive .map{color:#e3e2e2;display:inline-block;width:20%;}
+.social_responsive .map:before{display:inline-block;font-family:"iconos";font-size:50px;content:"\e60a"}
+.social_responsive .responsive{width:30%}

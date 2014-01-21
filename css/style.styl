@@ -1,0 +1,390 @@
+@font-face {
+	font-family: 'iconos';
+	src:url('iconos/fonts/icomoon.eot');
+	src:url('iconos/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('iconos/fonts/icomoon.woff') format('woff'),
+		url('iconos/fonts/icomoon.ttf') format('truetype'),
+		url('iconos/fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body
+	background rgba 162, 178, 186, .70
+	font-size 16px
+	body-scroll none
+	margin 0
+	padding 0
+	text-decoration none
+	width 100%
+
+header
+	background #e4e4e1
+
+footer
+	background #494949
+	color white
+	padding .2em 0
+	position relative
+	text-align center
+
+	a:hover
+		color #E61C83
+
+h1
+	font-size 1em
+h2
+	color white		
+
+#contacto 
+	background #dbdbd5
+	height 40px
+	margin 0 10px 0 21px
+	position relative
+	width 50px
+		
+
+#contacto:after
+	border-bottom 40px solid transparent
+	border-left 25px solid #dbdbd5
+	content " "
+	left 100%
+	position absolute
+	top 0
+	
+
+#contacto, #logo 
+	display inline-block
+	vertical-align top
+
+#logo
+	background #E61C83
+	height 40px
+	position relative
+	width 150px
+
+#logo:after
+	border-bottom 40px solid #dbdbd5
+	border-left 25px solid #e61c83
+	content " "
+	left 100%
+	position absolute
+	top 0
+
+#main
+	display inline-block
+		
+	.delimitador
+		margin 0
+		padding 0
+		width 40%
+
+	#redes
+	display inline-block
+	float right
+	margin 6px 20px 6px 10px
+
+	.facebook
+		color #767676
+		display inline-block
+		padding 0 10px
+	
+
+		&:before
+			display inline-block
+			font-family "iconos"
+			font-size 28px
+			content: "\e614"
+	
+	.facebook:hover
+		color #e61c83
+	
+	.maps
+		color #767676
+		padding 0 10px
+		display inline-block
+			
+		&:before
+			display inline-block
+			font-family "iconos"
+			font-size 28px
+			content: "\e609"
+
+	.maps:hover
+		color #e61c83
+	
+	.twitter
+		color #767676
+		padding 0 10px
+		display inline-block
+
+		&:before
+			display inline-block
+			font-family "iconos"
+			font-size 28px
+			content: "\e615"
+
+	.twitter:hover
+		color #e61c83
+			
+	
+	.youtube
+		color #767676
+		padding 0 10px
+		display inline-block
+			
+		&:before
+			display inline-block
+			font-family "iconos"
+			font-size 28px
+			content: "\e616"
+
+	.youtube:hover
+		color #e61c83
+
+#social
+	background #767676
+	color #f4f3f2
+	height 200px
+	margin 0
+	padding 0 
+	width 100%
+	
+	.yt, .tw, .dir
+		display inline-block
+		width 30%
+
+	.dir
+		margin 0 4% 0 2%
+		text-align left
+		text-decoration none
+
+		a 
+			text-decoration none
+			color #f4f3f2
+	.tw 
+		margin 0 2%
+
+.contact 
+	color #767676
+			
+	&:before
+		content: "\e600"
+		display inline-block
+		font-family "iconos"
+		font-size 28px
+		margin 5px 10px
+
+.contact:hover
+	color #E61C83
+
+.desarrollo
+	font-size 15px
+	margin-top -16px 
+
+	p:after
+		content " - "
+
+	p:before
+		content " - "
+
+.logo_head
+	height 30px
+	margin 5px 30px
+	width 80px
+
+.logo_horario,
+.horario_social
+	display inline-block
+
+.logo_ubicacion, 
+.ubicacion_social
+	display inline-block
+
+.logo_horario
+	color white
+	padding 0 10px
+	display inline-block
+			
+	&:before
+		display inline-block
+		font-family "iconos"
+		font-size 28px
+		content: "\e604"
+
+.logo_responsive
+	display none
+
+.logo_ubicacion
+	color white
+	padding 0 10px
+	display inline-block
+			
+	&:before
+		display inline-block
+		font-family "iconos"
+		font-size 28px
+		content: "\e60a"
+
+.lv
+	padding .2em 0 0 0 0
+
+.ubicacion_espacio
+	margin 1px 0
+
+.md
+	color white
+	text-decoration none
+
+.social_responsive
+	display none
+
+.ubicacion 
+	margin  0
+
+.ubicacion_espacio
+	margin 10px 0 0 0
+
+
+
+@media screen and (max-width: 768px)
+
+	header
+		background #e61c83
+		height 60px
+
+		#logo
+			margin 10px
+			width 35%
+
+			&:after
+			display none
+
+			.logo_head
+				display none
+
+			.logo_responsive
+				display inline-block
+				width 160px
+
+		#redes 
+			float right 
+			margin 10px 0
+
+			.facebook
+				color #e3e2e2
+				display inline-block
+				padding 0 10px
+	
+				&:before
+					display inline-block
+					font-family "iconos"
+					font-size 40px
+					content: "\e614"
+	
+			.facebook:hover
+				color #a2b2ba
+	
+			.maps
+				color #e3e2e2
+				padding 0 10px
+				display none
+			
+				&:before
+					display none
+					font-family "iconos"
+					font-size 40px
+					content: "\e609"
+
+			.maps:hover
+				color #a2b2ba
+	
+			.twitter
+				color #e3e2e2
+				padding 0 10px
+				display inline-block
+
+				&:before
+					display inline-block
+					font-family "iconos"
+					font-size 40px
+					content: "\e615"
+
+			.twitter:hover
+				color #a2b2ba
+			
+	
+			.youtube
+				color #e3e2e2
+				padding 0 10px
+				display inline-block
+			
+				&:before
+					display inline-block
+					font-family "iconos"
+					font-size 40px
+					content: "\e616"
+
+			.youtube:hover
+				color #a2b2ba
+
+		#contacto 
+			display none
+
+	#social 
+		display none
+footer
+	display inline-block
+	width 100%
+
+.social_responsive
+	background #494949
+	border-radius 10px 10px 0 0
+	display none
+	margin 1em auto 0
+	padding 1em
+	text-align center
+	width 40%
+
+	.comenta
+		color #e3e2e2
+		display inline-block
+		width 20%
+			
+		&:before
+			display inline-block
+			font-family "iconos"
+			font-size 50px
+			content: "\e600"
+
+	.comenta:hover, 
+	.horario:hover, 
+	.map:hover
+		color #e61c83
+
+	.horario 
+		color #e3e2e2
+		display inline-block
+		width 20%
+			
+		&:before
+			display inline-block
+			font-family "iconos"
+			font-size 50px
+			content: "\e604"
+
+	.map 
+		color #e3e2e2
+		display inline-block
+		width 20%
+			
+		&:before
+			display inline-block
+			font-family "iconos"
+			font-size 50px
+			content: "\e60a"
+
+	.responsive 
+		width 30%
+
+		

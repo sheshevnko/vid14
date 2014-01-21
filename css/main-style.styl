@@ -1,0 +1,143 @@
+@font-face {
+	font-family: 'iconos';
+	src:url('iconos/fonts/icomoon.eot');
+	src:url('iconos/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('iconos/fonts/icomoon.woff') format('woff'),
+		url('iconos/fonts/icomoon.ttf') format('truetype'),
+		url('iconos/fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body
+	background rgba 162, 178, 186, .70
+	font-size 16px
+	body-scroll none
+	margin 0
+	padding 0
+	text-decoration none
+	width 100%
+
+header
+	background #e4e4e1
+
+#contacto, #logo 
+	display inline-block
+	vertical-align top
+
+#contacto 
+	background #dbdbd5
+	display inline-block
+	height 40px
+	margin 0 10px 0 19px
+	position relative
+	width 50px
+
+	&:after
+		border-bottom 40px solid transparent
+		border-left 25px solid #dbdbd5
+		content " "
+		left 100%
+		position absolute
+		top 0
+
+#logo
+	background #E61C83
+	height 40px
+	position relative
+	width 150px
+	
+	&:after
+		border-bottom 40px solid #dbdbd5
+		border-left 25px solid #e61c83
+		content " "
+		left 100%
+		position absolute
+		top 0
+
+.contact 
+	color #767676
+			
+	&:before
+		content: "\e600"
+		display inline-block
+		font-family "iconos"
+		font-size 28px
+		margin 5px 10px
+
+.contact:hover
+	color #E61C83
+
+.logo_head
+	height 30px
+	margin 5px 30px
+	width 80px
+
+#formulario-contacto
+	background #f244a3
+	height 100%
+	padding 10em 0em
+	width 100%
+
+#redes
+	display inline-block
+	float right
+	margin 6px 20px 6px 10px
+
+	.facebook
+		color #767676
+		display inline-block
+		padding 0 10px
+	
+
+		&:before
+			display inline-block
+			font-family "iconos"
+			font-size 28px
+			content: "\e614"
+	
+	.facebook:hover
+		color #e61c83
+	
+	.maps
+		color #767676
+		padding 0 10px
+		display inline-block
+			
+		&:before
+			display inline-block
+			font-family "iconos"
+			font-size 28px
+			content: "\e609"
+
+	.maps:hover
+		color #e61c83
+	
+	.twitter
+		color #767676
+		padding 0 10px
+		display inline-block
+
+		&:before
+			display inline-block
+			font-family "iconos"
+			font-size 28px
+			content: "\e615"
+
+	.twitter:hover
+		color #e61c83
+			
+	
+	.youtube
+		color #767676
+		padding 0 10px
+		display inline-block
+			
+		&:before
+			display inline-block
+			font-family "iconos"
+			font-size 28px
+			content: "\e616"
+
+	.youtube:hover
+		color #e61c83
