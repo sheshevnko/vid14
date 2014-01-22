@@ -1,8 +1,7 @@
 @font-face{font-family:'iconos';src:url("iconos/fonts/icomoon.eot");src:url("iconos/fonts/icomoon.eot?#iefix") format('embedded-opentype'),url("iconos/fonts/icomoon.woff") format('woff'),url("iconos/fonts/icomoon.ttf") format('truetype'),url("iconos/fonts/icomoon.svg#icomoon") format('svg');font-weight:normal;font-style:normal}
-@import url "formulario.css";
-body{background:rgba 162,178,186,.7;font-size:16px;body-scroll:none;margin:0;padding:0;positiontext-decoration:none;width:100%}
-header{background:#e4e4e1}
-#contacto,#logo{display:inline-block;vertical-align:top}
+body{background:rgba 162,178,186,.7;font-size:16px;body-scroll:none;margin:0;padding:0;position:fixed;text-decoration:none;width:100%}
+header{background:#e4e4e1;height:40px;position:absolute;width:100%}
+#contacto,#logo,#redes{display:inline-block;vertical-align:top}
 #contacto{background:#dbdbd5;display:inline-block;height:40px;margin:0 10px 0 19px;position:relative;width:50px;}
 #contacto:after{border-bottom:40px solid transparent;border-left:25px solid #dbdbd5;content:" ";left:100%;position:absolute;top:0}
 #logo{background:#e61c83;height:40px;position:relative;width:150px;}
@@ -11,8 +10,8 @@ header{background:#e4e4e1}
 .contact:before{content:"\e600";display:inline-block;font-family:"iconos";font-size:28px;margin:5px 10px}
 .contact:hover{color:#e61c83}
 .logo_head{height:30px;margin:5px 30px;width:80px}
-#formulario-contacto{background:#f244a3;height:100%;padding:10em 0;width:100%}
-#redes{display:inline-block;float:right;margin:6px 20px 6px 10px;}
+#formulario-contacto{background:#f244a3;height:100%;margin:40px 0 0 0;padding:50px 20px;width:100%}
+#redes{float:right;margin:5px 10px 5px;vertical-align:top;}
 #redes .facebook{color:#767676;display:inline-block;padding:0 10px;}
 #redes .facebook:before{display:inline-block;font-family:"iconos";font-size:28px;content:"\e614"}
 #redes .facebook:hover{color:#e61c83}
